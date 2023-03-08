@@ -2,6 +2,7 @@
 
 body {
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
   
 }
 
@@ -16,6 +17,7 @@ h1  {
 
 p {
     text-align: justify;
+    font-size: 20px;
 }
 
 
@@ -49,7 +51,20 @@ li  {
   border-top-right-radius: 10% 90%;
 }
 
-
+/*  tableau */
+table {
+ color: rgb(35, 38, 38);
+  border-collapse: collapse;
+  width: 100%;
+}
+td, th {
+  border: 0px solid #857102;
+  text-align: left;
+  padding: 8px;
+}
+tr:nth-child(even) {
+  background-color: #13d8ff3b;
+}
 
 /*  sous titre */
 h2 {
