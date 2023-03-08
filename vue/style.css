@@ -2,6 +2,7 @@
 
 body {
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
 }
 
 /* titre */
@@ -13,13 +14,18 @@ h1  {
     font-size: 3em;   
 }
 
+p {
+    text-align: justify;
+}
+
 /* image centre */
 .img {
 
-    height: 200px;
+   
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 50%;
 
 }
 
@@ -30,7 +36,7 @@ h1  {
 /*  les ombres & bordues */
 li  {
     box-shadow: 1px 1px 1px rgba(226, 249, 255, 0.58);
-    border-radius: ;
+    border-radius:10% ;
       
 }
 
@@ -44,7 +50,7 @@ li  {
 /*  sous titre */
 h2 {
     background: rgb(0,80,255);
-    background: linear-gradient(90deg, rgba(0,80,255,1) 0%, rgba(0,247,255,1) 48%, rgba(252,252,252,1) 94%);
+    background: linear-gradient(90deg, rgba(0,80,255,1) 0%, rgb(62, 192, 196) 48%, rgba(252,252,252,1) 94%);
     color: white;
     text-align: center;
     
