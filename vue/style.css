@@ -18,21 +18,24 @@ p {
     text-align: justify;
 }
 
+
+
 /* image centre */
 .img {
-
-   
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 50%;
+   
 
 }
 
-.item {
-    width: 10em;
-}
 
+img {
+     display: flex;
+    clip-path: ellipse(50% 50%);
+    margin:  100px;
+
+}
 /*  les ombres & bordues */
 li  {
     box-shadow: 1px 1px 1px rgba(226, 249, 255, 0.58);
@@ -43,8 +46,9 @@ li  {
 .box {
   border: 5px solid rgb(248, 230, 110);
   border-radius: 1em;
-  border-top-right-radius: 10% 30%;
+  border-top-right-radius: 10% 90%;
 }
+
 
 
 /*  sous titre */
