@@ -1,11 +1,84 @@
+/* corps */
+
+body {
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* titre */
 h1  {
-    background-color: green;
+     background: rgb(0,255,254);
+    background: linear-gradient(90deg, rgba(0,255,254,1) 0%, rgba(255,213,76,1) 49%, rgba(0,255,254,1) 100%);;
     color: white;
+    text-align: center;
+    font-size: 3em;   
+}
+
+/* image centre */
+.img {
+
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.item {
+    width: 10em;
+}
+
+/*  les ombres & bordues */
+li  {
+    box-shadow: 1px 1px 1px rgba(226, 249, 255, 0.58);
+    border-radius: ;
+      
+}
+
+.box {
+  border: 5px solid rgb(248, 230, 110);
+  border-radius: 1em;
+  border-top-right-radius: 10% 30%;
+}
+
+
+/*  sous titre */
+h2 {
+    background: rgb(0,80,255);
+    background: linear-gradient(90deg, rgba(0,80,255,1) 0%, rgba(0,247,255,1) 48%, rgba(252,252,252,1) 94%);
+    color: white;
+    text-align: center;
     
 }
 
-h2 {
-    background-color: rgb(7, 115, 223);
-    color: white;
-    
+/*  passage de sourie coloré */
+
+@media (hover: hover) {
+    h1:hover {
+        background: rgb(1, 109, 25);
+    }
 }
+
+/* titre animation */
+h1, h2 {
+  animation-duration: 3s;
+  animation-name: glissement;
+  animation-iteration-count: initial;
+}
+.infini {
+  animation-iteration-count: initial;
+}
+.dix {
+  animation-iteration-count: 10;
+}
+@keyframes glissement {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+
