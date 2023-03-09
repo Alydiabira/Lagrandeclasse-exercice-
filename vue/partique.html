@@ -77,8 +77,12 @@
     <hr class="my-5" />
 
     <!--Rowspan-->
-    <div class="container-sm">
+    <div>
         <h1>Rowspan</h1>
+    </div>
+
+    <div class="container-sm">
+
         <table>
             <caption>Rowspan</caption>
             <tr>
@@ -102,54 +106,125 @@
 
     <hr class="my-5" />
 
-    <div class="container-md">
+    <!--Formulaire-->
+    <div>
         <h1>Formulaire</h1>
-        <!--<form>
-            <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-            </div>
-            <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label">Password</label>
-                <input type="password" class="form-control" id="exampleInputPassword1">
-            </div>
-            <div class="mb-3 form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1">Check me out</label>
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-        </form>-->
     </div>
 
-    <div class="container-sm">
-        <form method="get" action="traitement.php">
-            <input type="text" name="nomClient">
-            <label for="produit">nom</label>
-            <input type="text" name="nom" id="idnom" placeholder="Nom Prénom">
-            <br><br><br>
-            <input type="checkbox" name="clbt" id="check"><label for="chn">Célibataire ?</label>
-            <br><br><br>
-            <label for="">sexe :</label>
-            <input type="radio" name="n" id="idf" value="femme"><label for="idf">femme</label>
-            <input type="radio" name="n" id="idh" value="homme"><label for="idf">homme</label>
-            <br><br><br>
-            <label for="idf">liste de framworks</label>
-            <select name="" id="" multiple>
+    <div class="container-md" sStyle="
+      background-image: url('../vue/img/100.jpg');
+      height: 400px;
+      margin-top: 58px;
+    ">
+
+        <!--Champs-->
+        <form>
+            <!--nom-->
+            <div class="mb-3">
+                <label for="exampleInputNom" class="form-label">Nom</label>
+                <input type="nom" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <!--prenom-->
+            <div class="mb-3">
+                <label for="exampleInputPrenom" class="form-label">Prenom</label>
+                <input type="prenom" class="form-control" id="exampleInputPrenom">
+            </div>
+            <!--Email-->
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email</label>
+                <input type="email" class="form-control" id="exampleInputEmail1">
+            </div>
+
+            <br>
+
+            <!--check rond-->
+            <!--Masculin-->
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    Masculin
+                </label>
+            </div>
+            <!--Féminin-->
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                <label class="form-check-label" for="flexRadioDefault2">
+                    Féminin
+                </label>
+            </div>
+
+            <br>
+
+            <!--Choisir un fichier-->
+            <label for="avatar">Choisir un fichier</label>
+            <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg">
+
+            <br><br>
+
+            <!--les pays-->
+            <div class="btn-group">
+                <button type="button" class="btn btn-danger">Pays</button>
+                <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    <span class="visually-hidden">Toggle Dropdown</span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">France</a></li>
+                    <li><a class="dropdown-item" href="#">La mecque</a></li>
+                    <li><a class="dropdown-item" href="#">Medine</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Bon voyage</a></li>
+                </ul>
+            </div>
+
+            <br><br>
+
+            <!--las languages-->
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Les langages préferés</option>
                 <option value="html">HTML</option>
                 <option value="css">CSS</option>
                 <option value="php">PHP</option>
-                <option value="JAVASCRIPT">JAVASCRIPT</option>
             </select>
 
+            <br><br>
 
-
-
-
-
+            <!--check carré-->
+            <div class=" form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Informatique</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                <label class="form-check-label" for="flexCheckIndeterminate">
+                    Gestion
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                <label class="form-check-label" for="flexCheckIndeterminate">
+                    Pédagogie
+                </label>
+            </div>
+            <!--button Envoyer-->
+            <button type="submit" class="btn btn-success">Envoyer</button>
+            <!--button Annuler-->
+            <button type="submit" class="btn btn-danger">Annuler</button>
         </form>
     </div>
 
+
+
+
+
+
+
+
+
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
         integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
     </script>
