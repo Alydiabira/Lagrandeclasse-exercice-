@@ -56,16 +56,16 @@ table {
  color: rgb(35, 38, 38);
   border-collapse: collapse;
   width: 100%;
- 
+  text-align: center;
 }
 td, th {
-  border: 1px solid #0da6ff;
-  text-align: left;
+  border: 1px solid #0da6ff37;
   padding: 8px;
 }
 tr:nth-child(even) {
-  background-color: #13d8ff3b;
+  background-color: #006d1264;
 }
+
 caption {
     caption-side: bottom;
 }
