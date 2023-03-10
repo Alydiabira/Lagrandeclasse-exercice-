@@ -8,8 +8,8 @@ body {
 
 /* titre */
 h1  {
-     background: rgb(0,255,254);
-    background: linear-gradient(90deg, rgba(0,255,254,1) 0%, rgba(255,213,76,1) 49%, rgba(0,255,254,1) 100%);;
+    background: rgb(255,237,25);
+    background: radial-gradient(circle, rgba(255,237,25,1) 0%, rgba(12,255,252,1) 100%);
     color: white;
     text-align: center;
     font-size: 3em;   
