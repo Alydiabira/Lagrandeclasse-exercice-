@@ -86,7 +86,6 @@ h2 {
 }
 
 
-
 /* titre animation */
 h1, h2 {
   animation-duration: 3s;
@@ -110,4 +109,11 @@ h1, h2 {
   }
 }
 
+/* media Rule
+@media screen and (min-width: 600px ) and (max-width: 960px ){
+  h1 {
+    background-color: black;
+  }
+}
+ */
 
