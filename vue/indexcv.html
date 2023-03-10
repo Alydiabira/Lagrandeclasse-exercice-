@@ -50,6 +50,15 @@
                         armées en informatique. <br> J’ai choisi la voie de l’informatique pour explorer de nouvel
                         compétences et débuter mon insertion dans le monde professionnel.</p>
                     <a class="btn btn-outline-light btn-lg" href="#!" role="button">Développeur Web</a>
+                    <button class="btn btn-primary position-relative" type="button" disabled>
+                        <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
+                        Loading...
+                    </button>
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                        10+
+                        <span class="visually-hidden">unread messages</span>
+                    </span>
+
                 </div>
             </div>
         </div>
@@ -79,7 +88,7 @@
                     <button type="button" class="btn btn-primary position-relative" data-bs-toggle="modal"
                         data-bs-target="#exampleModal">
                         <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
-                            99+
+                            10+
                             <span class="visually-hidden">unread messages</span>
                         </span>
                         Agrandir l'image
@@ -122,7 +131,7 @@
                     <button type="button" class="btn btn-primary position-relative" data-bs-toggle="modal"
                         data-bs-target="#exampleModal">
                         <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
-                            99+
+                            10+
                             <span class="visually-hidden">unread messages</span>
                         </span>
                         Agrandir l'image
@@ -171,7 +180,7 @@
                 data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
                 en savoir plus
                 <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
-                    99+
+                    10+
                     <span class="visually-hidden">unread messages</span>
                 </span>
             </button>
@@ -218,281 +227,209 @@
             </div>
         </div>
 
-        <!--Effondrement-->
+
+        <hr class="my-5" />
+
+        <!--effondrement-->
         <p>
-            <button class="btn btn-primary position-relative" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                en savoir plus
-                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
-                    99+
-                    <span class="visually-hidden">unread messages</span>
-                </span>
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+                Toggle width collapse
             </button>
         </p>
-        <div class="collapse" id="collapseExample">
-            <div class="card card-body">
-
-
-            </div>
-        </div>
-
-        <p>
-            <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button"
-                aria-expanded="false" aria-controls="multiCollapseExample1">Présentation personnel</a>
-            <button class="btn btn-primary position-relative" type="button" data-bs-toggle="collapse"
-                data-bs-target="#multiCollapseExample2" aria-expanded="false"
-                aria-controls="multiCollapseExample2">Présentation personnel</button>
-            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
-                99+
-                <span class="visually-hidden">unread messages</span>
-            </span>
-            <button class="btn btn-primary position-relative" type="button" data-bs-toggle="collapse"
-                data-bs-target=".multi-collapse" aria-expanded="false"
-                aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle both
-                elements</button>
-
-        </p>
-        <div class="row">
-            <div class="col">
-                <div class="collapse multi-collapse" id="multiCollapseExample1">
-                    <div class="card card-body">
-                        <p>
-                            Développeur d'application - PHP / Symfony <br>
-                            II. Présentation personnelle
-
-                            Mon objectif d’apprentissage est d'incorporer les forces armées avec le diplôme de
-                            développeur
-                            d’applications PHP/Symfony. Je souhaite devenir Officier des forces armées, suite à un stage
-                            en
-                            Régiment, j’en fait une vocation.
-
-                            Après une initiation au monde du numérique à forma Web et à la 3W Academy pour effectuer une
-                            formation
-                            de développeur & intégrateur, je devais être muni d'un ordinateur et d’un réseau Wi-Fi, et
-                            savoir la
-                            base Wordpress (CMS les langages, PHP, Mysql, Css, HTML, Javascript et Jquery) pour me
-                            permettre de
-                            réussir j’ai décidé de travailler à la maison, pendant la formation pour m’aider j’ai acheté
-                            un
-                            livre de
-                            développeur.
-                            Pareillement pour développeur d’applications PHP/Symfony, continuellement à la recherche de
-                            solution
-                            et
-                            de ressource, pour réaliser mes projets.
-
-                            J’ai écrit aux services présidentiels, à l'intervenante sociale du commissariat de Police
-                            Nationale,
-                            à
-                            Openclassrooms.
-
-                            S’agissant de ma volonté d’intégrer l’armée, je peux prendre contact, dans un Poste
-                            d'Information
-                            des
-                            forces armées, un conseiller pourra, sur rendez-vous, me faire suivre la procédure pour
-                            candidater.
-
-                            En tant que stagiaire lors de ma préparation militaire découverte en 2019, j’ai mûri mon
-                            projet.
-                            C’est
-                            en tant qu’Officier des forces armées, je serai capable de mettre les difficultés passées
-                            loin
-                            derrière
-                            moi. Pour l’avenir je fais confiance à nos armées.
-
-                            J'étais financé par la Région Ile-de-France.
-                            Mise à jour le 25/08/2022.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="collapse multi-collapse" id="multiCollapseExample2">
-                    <div class="card card-body">
+        <div style="min-height: 120px;">
+            <div class="collapse collapse-horizontal" id="collapseWidthExample">
+                <div class="card card-body" style="width: 300px;">
+                    <p>
                         Objet : Lettre de motivation pour intégrer un poste dans les forces armées <br>
 
                         Madame, Monsieur, <br>
 
                         Actuellement à la recherche d'un emploi pour débuter ma carrière dans les forces armées en
                         informatique. J’ai choisi la voie de l’informatique pour explorer de nouvel compétences et
-                        débuter mon insertion dans le monde professionnel. <br>
+                        débuter
+                        mon insertion dans le monde professionnel. <br>
 
                         Grâce à ma précédente formation en tant qu’intégrateur et développeur web auprès de la
                         3Wacadémy, j’ai pu acquérir les compétences nécessaires pour me rendre utile et entrer en
-                        étude supérieur chez Openclassrooms. En plus de cette formation, je viens de passer plusieurs
-                        années à étudier en tant que Développeur d'application - PHP / Symfony sur plusieurs projets
-                        de constitution de mon portfolio en réalisant des applications avec PHP. J’ai pu améliorer mes
-                        capacités à comprendre les besoins d’un projet professionnel et renforcer mes facultés
-                        d’adaptabilité et d’apprentissage. Je saurais donc user de ces atouts pour me mettre en avant
-                        et devenir un élément profitable à l’entreprise. <br>
+                        étude
+                        supérieur chez Openclassrooms. En plus de cette formation, je viens de passer plusieurs années
+                        à
+                        étudier en tant que Développeur d'application - PHP / Symfony sur plusieurs projets de
+                        constitution
+                        de mon portfolio en réalisant des applications avec PHP. J’ai pu améliorer mes capacités à
+                        comprendre les besoins d’un projet professionnel et renforcer mes facultés d’adaptabilité et
+                        d’apprentissage. Je saurais donc user de ces atouts pour me mettre en avant et devenir un
+                        élément
+                        profitable à l’entreprise. <br>
 
                         La croissance et la volonté de développement de votre entreprise a attiré mon attention et je
-                        vois l’opportunité de mettre mon potentiel à votre service. <br>
+                        vois
+                        l’opportunité de mettre mon potentiel à votre service. <br>
 
                         Je reste à disposition pour tout complément d’informations sur ma candidature qui démarre
-                        dès que j’aurais trouvé un établissement d’accueil pour débuté ma carrière. Je serai
-                        également réactif pour toutes demandes d’entretien, au téléphone ou au sein de vos locaux.
-                        Veuillez agréer, Madame, Monsieur, l’expression de mes salutations distinguées.
+                        dès
+                        que
+                        j’aurais trouvé un établissement d’accueil pour débuté ma carrière. Je serai également
+                        réactif
+                        pour toutes demandes d’entretien, au téléphone ou au sein de vos locaux. Veuillez agréer,
+                        Madame,
+                        Monsieur, l’expression de mes salutations distinguées.
 
-                        <p>
-
-                        </p>
-                    </div>
+                    </p>
                 </div>
             </div>
         </div>
 
+        <hr class="my-5" />
+
+
+        <!--Développeur Web PHP / Symfony -->
+
+        <section>
+
+            <!--Débordé-->
+            <div class="container-md overflow-x-auto">
+                <h1 class="infini">Diplôme & Formation</h1>
+                <ul>
+
+                    <p><em>Openclassrooms, Ile de france</em> septembre 2022</p>
+                </ul>
+                <ol class="box">
+                    <li>analyser les besoins à partir du cahier des charges défini par le client ou le chef de projet.
+                    </li>
+                    <li>définir les différentes étapes de fonctionnement de l’application.</li>
+                    <li>étudier l’ensemble des solutions techniques disponibles.</li>
+                    <li>développer, tester et valider les fonctionnalités du site.</li>
+                    <li>assurer le support technique du site et produire une documentation technique et fonctionnelle du
+                        site pour le client.</li>
+                    <li>apporter d’éventuelles corrections de bugs et d’effectuer des mises à jour.</li>
+                </ol>
+
+                <br>
+
+                <!--Développeur Intégrateur-->
+                <h2>Développeur Intégrateur</h2>
+                <p><em>Openclassrooms, Ile de france</em> Janvier 2020</p>
+                </ul>
+                <ul>
+                    <p> 3W Academy </p>
+                </ul>
+                <ol>
+                    <li>Certification de parcours : ﻿niveau 6 (Bac + 3/4) </li>
+                    <li>Certification de parcours : ﻿niveau 5 (Bac + 2)
+                    </li>
+                </ol>
+
+                <br>
+                <!--Initiation au métier du numérique-->
+                <h2>Initiation au métier du numérique</h2>
+                <p><em>3W Academy, 46, rue René - 75018 Paris Claire Ile de france</em> Janvier 2020 à Mars 2020</p>
+                </ul>
+
+                <h3>Initiation au métier du numérique </h3>
+                <p><em>Forma-Web, 4 Epinay-sur-seine</em> de Novembre 2017 à Novembre 2018
+                </p>
+                <ul>
+                    <li> apprentissage en HTML, CSS3 et Python, PHP.</li>
+                </ul>
+                <ol>
+                    <li>Certification de parcours : ﻿niveau 6 (Bac + 3/4) </li>
+                </ol>
+                <br>
+
+                <!--EPIDE-->
+                <h2>EPIDE</h2>
+                <p><em>Etablissement Pour L'insertion dans L'emploi, Montry</em> de Janvier 2014 à Juillet
+                    2015
+                </p>
+                <ul>
+                    <li>Volontaire à l'insertion</li>
+                </ul>
+
+            </div>
+        </section>
 
 
 
-    </div>
-
-    <hr class="my-5" />
-    <!--Développeur Web PHP / Symfony -->
-
-    <section>
-
-        <!--Débordé-->
-        <div class="container-md overflow-x-auto">
-            <h1 class="infini">Diplôme & Formation</h1>
-            <ul>
-
-                <p><em>Openclassrooms, Ile de france</em> septembre 2022</p>
-            </ul>
-            <ol class="box">
-                <li>analyser les besoins à partir du cahier des charges défini par le client ou le chef de projet.</li>
-                <li>définir les différentes étapes de fonctionnement de l’application.</li>
-                <li>étudier l’ensemble des solutions techniques disponibles.</li>
-                <li>développer, tester et valider les fonctionnalités du site.</li>
-                <li>assurer le support technique du site et produire une documentation technique et fonctionnelle du
-                    site pour le client.</li>
-                <li>apporter d’éventuelles corrections de bugs et d’effectuer des mises à jour.</li>
-            </ol>
-
-            <br>
-
-            <!--Développeur Intégrateur-->
-            <h2>Développeur Intégrateur</h2>
-            <p><em>Openclassrooms, Ile de france</em> Janvier 2020</p>
-            </ul>
-            <ul>
-                <p> 3W Academy </p>
-            </ul>
-            <ol>
-                <li>Certification de parcours : ﻿niveau 6 (Bac + 3/4) </li>
-                <li>Certification de parcours : ﻿niveau 5 (Bac + 2)
-                </li>
-            </ol>
-
-            <br>
-            <!--Initiation au métier du numérique-->
-            <h2>Initiation au métier du numérique</h2>
-            <p><em>3W Academy, 46, rue René - 75018 Paris Claire Ile de france</em> Janvier 2020 à Mars 2020</p>
-            </ul>
-
-            <h3>Initiation au métier du numérique </h3>
-            <p><em>Forma-Web, 4 Epinay-sur-seine</em> de Novembre 2017 à Novembre 2018
-            </p>
-            <ul>
-                <li> apprentissage en HTML, CSS3 et Python, PHP.</li>
-            </ul>
-            <ol>
-                <li>Certification de parcours : ﻿niveau 6 (Bac + 3/4) </li>
-            </ol>
-            <br>
-
-            <!--EPIDE-->
-            <h2>EPIDE</h2>
-            <p><em>Etablissement Pour L'insertion dans L'emploi, Montry</em> de Janvier 2014 à Juillet
-                2015
-            </p>
-            <ul>
-                <li>Volontaire à l'insertion</li>
-            </ul>
-
-        </div>
-    </section>
-
-
-
-
-    <hr class="my-5" />
-
-    <!--Expériences-->
-    <!--Débordé-->
-    <section>
-        <div class="container-md overflow-x-auto">
-            <h1>Exepérience professionnels</h1>
-            <p><em> Armée de terre, 44e régiment de transmission - MOLSHEIM</em> Août 2019</p>
-            <ul>
-                <li>Périodes militaire initiales/Découverte du milieu militaire</li>
-                <li>Participation à des activités militaires et sportives progressives et adaptées</li>
-                <li>Développement du goût de l'effort</li>
-                <li>Initiation aux techniques et connaissances de base du militaire</li>
-                <li>Sensibilisation aux enjeux de la Défense Nationale</li>
-            </ul>
-        </div>
 
         <hr class="my-5" />
 
         <!--Expériences-->
-        <div class="container-md">
-
-            <p> <em>M4S, Aristide Briand, 94110 Arceuil</em> de JUILLET à Août 2019</p>
-            <ul>
-                <li>Sécurisation de copropriété</li>
-                <li>Design du site</li>
-                <li>Mise en place des produit de vente et techniques </li>
-            </ul>
-        </div>
-    </section>
-
-    <!--Compétence-->
-    <hr class="my-5" />
-
-    <section>
         <!--Débordé-->
-        <div class="container-md overflow-x-auto">
-            <h2>Compétence</h2>
+        <section>
+            <div class="container-md overflow-x-auto">
+                <h1>Exepérience professionnels</h1>
+                <p><em> Armée de terre, 44e régiment de transmission - MOLSHEIM</em> Août 2019</p>
+                <ul>
+                    <li>Périodes militaire initiales/Découverte du milieu militaire</li>
+                    <li>Participation à des activités militaires et sportives progressives et adaptées</li>
+                    <li>Développement du goût de l'effort</li>
+                    <li>Initiation aux techniques et connaissances de base du militaire</li>
+                    <li>Sensibilisation aux enjeux de la Défense Nationale</li>
+                </ul>
+            </div>
 
-            <p>Langagues</p> <br>
-            <p>HTML, CSS, MSQL, PHP, JAVASCRIPT, BOOTSTRAP, Python</p>
-        </div>
+            <hr class="my-5" />
 
-        <br>
-        <!--Débordé-->
-        <div class="container-md overflow-x-auto">
-            <!--Base de donné-->
-            <h2>Base de donné</h2>
-            <p>SQL/ MYSQL</p>
-        </div>
+            <!--Expériences-->
+            <div class="container-md">
 
-        <br>
+                <p> <em>M4S, Aristide Briand, 94110 Arceuil</em> de JUILLET à Août 2019</p>
+                <ul>
+                    <li>Sécurisation de copropriété</li>
+                    <li>Design du site</li>
+                    <li>Mise en place des produit de vente et techniques </li>
+                </ul>
+            </div>
+        </section>
 
-        <!--Outils & logiciels-->
-        <!--Débordé-->
-        <div class="container-md overflow-x-auto">
-            <h2>Outils & logiciels</h2>
-        </div>
-        <div class="container-md">
-            <p>Bootstrap (Site internet)</p>
-        </div>
+        <!--Compétence-->
+        <hr class="my-5" />
 
-        <br>
+        <section>
+            <!--Débordé-->
+            <div class="container-md overflow-x-auto">
+                <h2>Compétence</h2>
 
-        <!--logiciels-->
-        <!--Débordé-->
-        <div class="container-md overflow-x-auto">
-            <h2>logiciels</h2>
-        </div>
-        <div class="container-md">
-            <p>Mamp, Sublime texte, Visual studio code 3, GIT/GITHUB, Worpress</p>
-        </div>
+                <p>Langagues</p> <br>
+                <p>HTML, CSS, MSQL, PHP, JAVASCRIPT, BOOTSTRAP, Python</p>
+            </div>
 
-    </section>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
-    </script>
+            <br>
+            <!--Débordé-->
+            <div class="container-md overflow-x-auto">
+                <!--Base de donné-->
+                <h2>Base de donné</h2>
+                <p>SQL/ MYSQL</p>
+            </div>
+
+            <br>
+
+            <!--Outils & logiciels-->
+            <!--Débordé-->
+            <div class="container-md overflow-x-auto">
+                <h2>Outils & logiciels</h2>
+            </div>
+            <div class="container-md">
+                <p>Bootstrap (Site internet)</p>
+            </div>
+
+            <br>
+
+            <!--logiciels-->
+            <!--Débordé-->
+            <div class="container-md overflow-x-auto">
+                <h2>logiciels</h2>
+            </div>
+            <div class="container-md">
+                <p>Mamp, Sublime texte, Visual studio code 3, GIT/GITHUB, Worpress</p>
+            </div>
+
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+        </script>
 </body>
 
 <!--Footer-->
